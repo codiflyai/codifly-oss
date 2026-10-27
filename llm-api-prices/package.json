@@ -1,0 +1,49 @@
+{
+  "name": "llm-api-prices",
+  "version": "1.0.0",
+  "description": "Official LLM API prices (USD per million tokens) as typed data, with cost and cheapest-model helpers. Data by Codifly, CC BY 4.0.",
+  "keywords": [
+    "llm",
+    "api",
+    "pricing",
+    "prices",
+    "openai",
+    "anthropic",
+    "gemini",
+    "tokens",
+    "cost",
+    "ai"
+  ],
+  "license": "MIT",
+  "author": "Codifly <https://codifly.co>",
+  "homepage": "https://codifly.co/rankings/ia",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codiflyai/codifly-oss.git",
+    "directory": "llm-api-prices"
+  },
+  "bugs": {
+    "url": "https://github.com/codiflyai/codifly-oss/issues"
+  },
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "test:live": "LIVE=1 node --test"
+  }
+}
