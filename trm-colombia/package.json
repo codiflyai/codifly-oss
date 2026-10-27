@@ -1,0 +1,48 @@
+{
+  "name": "trm-colombia",
+  "version": "1.0.0",
+  "description": "Consulta la TRM oficial de Colombia (dólar) desde los datos abiertos de la Superfinanciera. Sin dependencias.",
+  "keywords": [
+    "trm",
+    "colombia",
+    "dólar",
+    "tasa representativa del mercado",
+    "superfinanciera",
+    "datos abiertos",
+    "cop",
+    "usd",
+    "exchange rate"
+  ],
+  "license": "MIT",
+  "author": "Codifly <https://codifly.co>",
+  "homepage": "https://codifly.co/articulos/api-trm-colombia-datos-abiertos-python-javascript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codiflyai/codifly-oss.git",
+    "directory": "trm-colombia"
+  },
+  "bugs": {
+    "url": "https://github.com/codiflyai/codifly-oss/issues"
+  },
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "test:live": "LIVE=1 node --test"
+  }
+}
