@@ -1,0 +1,46 @@
+{
+  "name": "nit-colombia",
+  "version": "1.0.0",
+  "description": "Calcula y valida el dígito de verificación del NIT colombiano (módulo 11). Sin dependencias.",
+  "keywords": [
+    "nit",
+    "colombia",
+    "dian",
+    "dígito de verificación",
+    "rut",
+    "validación",
+    "check digit",
+    "tax id"
+  ],
+  "license": "MIT",
+  "author": "Codifly <https://codifly.co>",
+  "homepage": "https://codifly.co/articulos/calcular-digito-verificacion-nit-colombia-codigo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codiflyai/codifly-oss.git",
+    "directory": "nit-colombia"
+  },
+  "bugs": {
+    "url": "https://github.com/codiflyai/codifly-oss/issues"
+  },
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
